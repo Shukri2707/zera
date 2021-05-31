@@ -1,0 +1,406 @@
+
+* {     font-family: 'Exo 2', sans-serif;}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    overflow-x: hidden;
+}
+
+
+.header {
+    background: #000;
+    height: 50px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.header_elem {
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 70px;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+}
+
+.adress_img, .phone_img {
+    width: 20px;
+}
+
+.top1 {
+    background: #b76003;
+    border-top: 1px solid #E99D35;
+    background-image: -webkit-radial-gradient(50% 250px,circle farthest-corner,#FFAE00,#b76003 90%);
+    height: 800px;
+}
+
+.top2 {
+    position: absolute;
+    top: 800px;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+.cane {
+    position: relative;
+    height: 15px;
+    width: 100%;
+    border-top: 1px solid #272727;
+    border-bottom: 1px solid #000000;
+}
+
+.quote {
+    height: 340px;
+    border-top: 1px solid #272727;
+    border-bottom: 1px solid #000000;
+}
+
+.hairdresser_img {
+    width: 150px;
+    margin-left: 450px;
+    margin-top: 88px;
+}
+
+.hairdresser {
+    position: absolute;
+    color: white;
+    display: inline-block;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 80px;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.recom {
+    margin-left: 601px;
+    margin-top: 10px;
+}
+
+.recom_elem {
+    display: inline-block;
+    font-weight: 600;
+    margin-right: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.wisdom {
+    position: absolute;
+    z-index: 123;
+    margin-top: 100px;
+    margin-left: 601px;
+    width: 400px;
+}
+
+.wisdom_big {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.wisdom_small {
+    font-size: 18px;
+    margin-top: 50px;
+    color: white;
+}
+
+.gallery {
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 500px;
+}
+.carousel {
+    z-index: 2;
+    width: 345px;
+    height: 598px;
+    float: right;
+}
+.carousel-inner {
+    border-radius: 11px; 
+    box-shadow: 0 0 5px;
+}
+
+
+.main {
+    background-color: #f5f1f0;
+    margin-top: 0px;
+    padding-top:10px;
+}
+
+.maptitle {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 23px;
+}
+.mapdiv{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+@media (max-width: 1366px) {
+    .gallery {
+        
+        right: 250px;
+    }
+    .hairdresser_img {
+        width: 120px;
+        margin-left: 200px;
+        margin-top: 48px;
+    }
+    .hairdresser {
+        margin-top: 40px;
+        font-weight: 300;
+        font-size: 35px;
+    }
+    .carousel {
+        width: 253px;
+        height: 453px;
+    }
+    .recom {
+        margin-left: 325px;
+        margin-top: 10px;
+    }
+    .wisdom {
+        margin-top: 60px;
+        margin-left: 325px;
+        width: 350px;
+    }
+    .wisdom_big {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .wisdom_small {
+        font-size: 15px;
+        margin-top: 70px;
+        color: white;
+    }
+    .top1 {
+        height: 400px;
+    }
+    .quote {
+        height: 154px;
+    }
+    .top2 {
+        top: 420px;
+    }
+    .maptitle {
+        margin-top: 190px;
+        margin-bottom: 50px;
+    }
+    .mapdiv{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1188px) {
+    .gallery {
+        
+        right: 80px;
+    }
+    .hairdresser_img {
+        width: 120px;
+        margin-left: 150px;
+        margin-top: 48px;
+    }
+    .hairdresser {
+        margin-top: 40px;
+        font-weight: 300;
+        font-size: 35px;
+    }
+    .recom {
+        margin-left: 275px;
+        margin-top: 10px;
+    }
+    .wisdom {
+        margin-top: 60px;
+        margin-left: 275px;
+        width: 350px;
+    }
+    .wisdom_big {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .wisdom_small {
+        font-size: 15px;
+        margin-top: 70px;
+        color: white;
+    }
+    .mapdiv{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 972px) {
+    .gallery {
+        
+        right: 20px;
+    }
+    .hairdresser_img {
+        width: 120px;
+        margin-left: 80px;
+        margin-top: 48px;
+    }
+    .hairdresser {
+        margin-top: 40px;
+        font-weight: 300;
+        font-size: 35px;
+    }
+    .recom {
+        margin-left: 205px;
+        margin-top: 10px;
+    }
+    .wisdom {
+        margin-top: 60px;
+        margin-left: 205px;
+        width: 350px;
+    }
+    .wisdom_big {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .wisdom_small {
+        font-size: 15px;
+        margin-top: 70px;
+        color: white;
+    }
+    .mapdiv{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 824px) {
+    .gallery {
+        
+        right: 10px;
+    }
+    .hairdresser_img {
+        width: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .hairdresser {
+        margin-top: 40px;
+        font-weight: 300;
+        font-size: 35px;
+        margin-left: 15px;
+    }
+    .recom {
+        margin-left: 17px;
+        margin-top: 130px;
+    }
+    .wisdom {
+        margin-top: 60px;
+        margin-left: 17px;
+        width: 350px;
+    }
+    .wisdom_big {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .wisdom_small {
+        font-size: 15px;
+        margin-top: 70px;
+        color: white;
+    }
+    .mapdiv{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 632px) {
+    .header {
+        width: 100%;
+    }
+    .header_elem {
+        font-size: 13px;
+    }
+    .top1 {
+        display: flex;
+        height: 900px;
+    }
+    .top1 > div {
+        margin: 0 auto;
+    }
+    .wrapper_top1 {
+        width: 280px;
+        align-items: center;
+    }
+    .top2 {
+        top: 350px;
+    }
+    .quote {
+        height: 700px;
+    }
+    .gallery {
+        position: relative;
+        top: 280px;
+        z-index: 1233;
+        width: 280px;
+
+    }
+    .hairdresser_img {
+        width: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .hairdresser {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 28px;
+    }
+    .recom {
+        margin-left: 17px;
+        margin-top: 70px;
+    }
+    .recom_elem {
+        margin-right: 10px;
+    }
+    .wisdom {
+        margin-top: 60px;
+        margin-left: 0px;
+        width: 300px;
+    }
+    .wisdom_big {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .wisdom_small {
+        width: 280px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 60px;
+        color: white;
+    }
+    .mapdiv{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 542px) {
+    .header {
+        padding-left: 0;
+        text-align: center;
+    }
+    .header_elem {
+        margin-right: 0;
+        font-size: 12px;
+    }
+}
